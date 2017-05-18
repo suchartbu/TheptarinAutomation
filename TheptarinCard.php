@@ -21,4 +21,4 @@ class TheptarinCard {
     }
 }
 
-$my = new TheptarinCard("*.jpg");
+$my = new TheptarinCard("/var/www/mount/hims-nas/share_card/*.jpg");

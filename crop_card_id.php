@@ -14,7 +14,7 @@
 class crop_card_id {
     public function __construct($filename) {
         $imagick = new Imagick($filename);
-        $imagick->cropimage(1040, 660, 0, 0);
-        $imagick->writeimage('auto_crop.jpg');
+        $imagick->cropimage(1060, 680, 0, 0);
+        $imagick->writeimage($filename);
     }
 }
